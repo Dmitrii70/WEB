@@ -26,7 +26,7 @@ public class ResponseUtils {
 
     public static void badRequest(BufferedOutputStream out) throws IOException {
         out.write((
-                "HTTP/1.1 400 Vad Request\r\n" +
+                "HTTP/1.1 400 Bad Request\r\n" +
                         "Content-Length: 0\r\n" +
                         "Connection: close\r\n" +
                         "\r\n"
